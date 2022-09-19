@@ -106,7 +106,7 @@ for emailadd in email_address:
 print("\n[!] ", len(email_address), "email addresses created! - saved as emails.txt")
 print("\n[?] Would you like to create a csv file (suitable for use with excel?)")
 csvfile = input("[+] Please choose y/n: ")
-while csvfile != "y" and csvfile != "no":
+while csvfile != "y" and csvfile != "n":
 	csvfile = input("[+] Please choose y/n: ")
 if csvfile == "n":
 	print("\n [+] Goodbye.")
